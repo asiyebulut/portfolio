@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,30 +16,71 @@
             <img src="https://images.pexels.com/photos/1382731/pexels-photo-1382731.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Profile image" id="pro-img">
             <h1>PORTFOLIO</h1>
             <ul>
-                <li><a href="#"><img src="https://img.icons8.com/material-rounded/24/000000/four-squares.png"/> PORTFOLIO</a></li>
-                <li><a href="#"><img src="https://img.icons8.com/pastel-glyph/24/000000/person-male--v3.png"/> ABOUT</a></li>
-                <li><a href="#"><img src="https://img.icons8.com/material-rounded/24/000000/important-mail.png"/> CONTACT</a></li>
+                <li><a href="#"><i class="fas fa-th-large"></i> PORTFOLIO</a></li>
+                <li><a href="#"><i class="fas fa-user-alt"></i> ABOUT</a></li>
+                <li><a href="#"><i class="fas fa-envelope"></i> CONTACT</a></li>
             </ul>
             <div id="social-img">
-                <img src="https://img.icons8.com/android/24/000000/facebook.png"/>
-                <img src="https://img.icons8.com/fluent-systems-regular/24/000000/instagram-new--v1.png"/>
-                <img src="https://img.icons8.com/fluent-systems-filled/24/000000/snapchat-squared.png"/>
-                <img src="https://img.icons8.com/windows/24/000000/pinterest-p.png"/>
-                <img src="https://img.icons8.com/android/24/000000/twitter.png"/>
-                <img src="https://img.icons8.com/ios-glyphs/24/000000/linkedin-2.png"/>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-snapchat"></i>
+                <i class="fab fa-pinterest-p"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin-in"></i>
             </div>
         </aside>
         <main class="main-content">
-            <header #header>
+            <header id="header">
                 <h1 id="main-title">My Portfolio</h1>
-                <label>Filter:</label>
-                <ul>
-                    <li><a href="#">ALL</a></li>
-                    <li><a href="#"><img src="https://img.icons8.com/carbon-copy/24/000000/diamond.png"/> Design</a></li>
-                    <li><a href="#"><img src="https://img.icons8.com/pastel-glyph/24/000000/image--v1.png"/> Photos</a></li>
-                    <li><a href="#">ALL</a></li>
-                </ul>
+                <span>Filter:</span>
+                <button id="first">ALL</button>
+                <button><i class="far fa-gem"></i> Design</button>
+                <button><i class="far fa-image"></i> Photos</button>
+                <button><i class="fas fa-map-pin"></i> Art</button>
             </header>
+            <section id="section-a">
+                <div class="img-boxes">
+                    <img src="https://source.unsplash.com/1600x900/?nature,water" alt="">
+                    <h3>Lorem Ipsum</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas placeat recusandae libero suscipit voluptatem aut. sequi maiores possimus.</p>
+                </div>
+                <div class="img-boxes">
+                    <img src="https://source.unsplash.com/1600x900/?nature,tree" alt="">
+                    <h3>Lorem Ipsum</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas placeat recusandae libero suscipit voluptatem aut. sequi maiores possimus.</p>
+                </div>
+                <div class="img-boxes">
+                    <img src="https://source.unsplash.com/1600x900/?nature,cloud" alt="">
+                    <h3>Lorem Ipsum</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas placeat recusandae libero suscipit voluptatem aut. sequi maiores possimus.</p>
+                </div>
+                <div class="img-boxes">
+                    <img src="https://source.unsplash.com/1600x900/?nature,flower" alt="">
+                    <h3>Lorem Ipsum</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas placeat recusandae libero suscipit voluptatem aut. sequi maiores possimus.</p>
+                </div>
+                <div class="img-boxes">
+                    <img src="https://source.unsplash.com/1600x900/?nature,mountain" alt="">
+                    <h3>Lorem Ipsum</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas placeat recusandae libero suscipit voluptatem aut. sequi maiores possimus.</p>
+                </div>
+                <div class="img-boxes">
+                    <img src="https://source.unsplash.com/1600x900/?nature,animal" alt="">
+                    <h3>Lorem Ipsum</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas placeat recusandae libero suscipit voluptatem aut. sequi maiores possimus.</p>
+                </div>
+            </section>
+            <div id="page-numbers">
+                <a href="#header"><<</a>
+                <a href="#header">1</a>
+                <a href="#header">2</a>
+                <a href="#header">3</a>
+                <a href="#header">4</a>
+                <a href="#header">>></a>
+            </div>
+            <section id="section-b">
+                
+            </section>
         </main>
     </div>
 </body>
